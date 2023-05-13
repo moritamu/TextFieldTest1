@@ -11,12 +11,22 @@ struct ContentView: View {
     @State private var name = ""
     
     var body: some View {
-        VStack {
-            TextField("あなたの名前", text: $name)
-                .padding()
-            Text("こんにちは、\(name)さん")
+        NavigationStack {
+            VStack {
+                TextField("あなたの名前", text: $name)
+                    .padding()
+                Text("こんにちは、\(name)さん")
+                Spacer()
+                    .padding(.vertical)
+                NavigationLink(destination: {
+                    SecondView(name: $name)
+                }, label: {
+                    Text("セカンドビュー")
+                })
+            }
+            .padding()
         }
-        .padding()
+
     }
 }
 
