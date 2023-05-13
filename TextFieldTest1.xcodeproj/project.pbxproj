@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4606D78E2A0F641800FECFB1 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4606D78D2A0F641800FECFB1 /* SecondView.swift */; };
 		467B39CE29F9CDB100FECAEB /* TextFieldTest1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467B39CD29F9CDB100FECAEB /* TextFieldTest1App.swift */; };
 		467B39D029F9CDB100FECAEB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467B39CF29F9CDB100FECAEB /* ContentView.swift */; };
 		467B39D229F9CDB200FECAEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 467B39D129F9CDB200FECAEB /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4606D78D2A0F641800FECFB1 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 		467B39CA29F9CDB100FECAEB /* TextFieldTest1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextFieldTest1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		467B39CD29F9CDB100FECAEB /* TextFieldTest1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldTest1App.swift; sourceTree = "<group>"; };
 		467B39CF29F9CDB100FECAEB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			children = (
 				467B39CD29F9CDB100FECAEB /* TextFieldTest1App.swift */,
 				467B39CF29F9CDB100FECAEB /* ContentView.swift */,
+				4606D78D2A0F641800FECFB1 /* SecondView.swift */,
 				467B39D129F9CDB200FECAEB /* Assets.xcassets */,
 				467B39D329F9CDB200FECAEB /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4606D78E2A0F641800FECFB1 /* SecondView.swift in Sources */,
 				467B39D029F9CDB100FECAEB /* ContentView.swift in Sources */,
 				467B39CE29F9CDB100FECAEB /* TextFieldTest1App.swift in Sources */,
 			);
